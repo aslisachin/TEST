@@ -27,7 +27,7 @@ body{
 }
 .text-center{
     text-align: center;
-    margin: 10px;
+    margin: auto;
 }
 p{
     font-family: 'Dongle', sans-serif;
@@ -40,4 +40,15 @@ h1{
     font-family: 'Dongle', sans-serif;
     font-weight: 700;
     font-size: 45px;
+}
+button{
+    display: block;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(63, 63, 70, 0.5);
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
 }
