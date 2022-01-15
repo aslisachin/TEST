@@ -1,0 +1,30 @@
+:root{
+    --blue: rgb(59, 130, 246);
+    --black: rgb(63, 63, 70);
+    --gray: rgb(161, 161, 170);
+    --white: rgb(255, 255, 255);
+    --off-white: rgb(240, 233, 210);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--off-white);
+}
+.main{
+    margin: auto;
+}
+.container{
+    margin: auto;
+    max-width: 700px;
+    min-width: 90%;
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(63, 63, 70, 0.5);
+}
+.text-center{
+    text-align: center;
+    margin: 10px;
+}
