@@ -14,6 +14,7 @@ body{
 }
 .main{
     margin: auto;
+    padding: 10px;
 }
 .container{
     margin: auto;
@@ -27,4 +28,16 @@ body{
 .text-center{
     text-align: center;
     margin: 10px;
+}
+p{
+    font-family: 'Dongle', sans-serif;
+    line-height: 15px;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+h1{
+    font-family: 'Dongle', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
 }
