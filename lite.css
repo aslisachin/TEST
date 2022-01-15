@@ -4,6 +4,7 @@
     --gray: rgb(161, 161, 170);
     --white: rgb(255, 255, 255);
     --off-white: rgb(240, 233, 210);
+    --font1: 'Ubuntu', sans-serif;
 }
 *{
     margin: 0;
@@ -30,15 +31,13 @@ body{
     margin: auto;
 }
 p{
-    font-family: 'Dongle', sans-serif;
-    line-height: 15px;
+    font-family: var(--font1);
     font-weight: 300;
-    font-size: 25px;
     margin-bottom: 10px;
 }
 h1{
-    font-family: 'Dongle', sans-serif;
-    font-weight: 700;
+    font-family: var(--font1);
+    font-weight: 400;
     font-size: 45px;
 }
 button{
@@ -49,10 +48,16 @@ button{
     border-style: none;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(63, 63, 70, 0.5);
-    font-family: 'Dongle', sans-serif;
+    font-family: var(--font1);
     font-size: 35px;
 }
 button:hover{
     background-color: rgb(43, 100, 192);
     box-shadow: 4px 4px 4px rgba(63, 63, 70, 0.5);
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-20{
+    margin-top: 20px;
 }
