@@ -45,10 +45,14 @@ button{
     display: block;
     background-color: var(--blue);
     color: var(--white);
-    padding: 10px 20px;
+    padding: 5px 50px;
     border-style: none;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(63, 63, 70, 0.5);
     font-family: 'Dongle', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+}
+button:hover{
+    background-color: rgb(43, 100, 192);
+    box-shadow: 4px 4px 4px rgba(63, 63, 70, 0.5);
 }
