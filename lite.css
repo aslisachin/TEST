@@ -42,7 +42,7 @@ h1,h2,h3{
     font-weight: 400;
     /* font-size: 45px; */
 }
-button{
+.btn{
     display: flex;
     background-color: var(--blue);
     color: var(--white);
@@ -84,4 +84,23 @@ button:hover{
     float: right;
     margin-left: 5px;
     margin-bottom: 5px;
+}
+.newsletter{
+    display: block;
+    background-color: var(--off-white);
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+.newsletter input{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    border: none;
+    font-family: var(--font1);
+    font-size: 20px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
