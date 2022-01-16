@@ -35,13 +35,13 @@ p{
     font-weight: 300;
     margin-bottom: 10px;
 }
-h1{
+h1,h2,h3{
     font-family: var(--font1);
     font-weight: 400;
-    font-size: 45px;
+    /* font-size: 45px; */
 }
 button{
-    display: block;
+    display: flex;
     background-color: var(--blue);
     color: var(--white);
     padding: 5px 50px;
@@ -60,4 +60,19 @@ button:hover{
 }
 .mt-20{
     margin-top: 20px;
+}
+.w-auto{
+    width: 100%;
+}
+.w-100{
+    width: 100px;
+}
+.border-round{
+    border-radius: 5px;
+}
+.float-right{
+    float: right;
+}
+.img{
+    margin: 10px;
 }
