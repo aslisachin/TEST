@@ -72,18 +72,24 @@ a{
     padding: 5px 50px;
     border-style: none;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(63, 63, 70, 0.5);
     font-family: var(--font1);
     font-size: 35px;
+}
+.btn:hover{
+    background-color: rgb(43, 100, 192);
+}
+.btn-shadow{
+    box-shadow: 5px 5px 5px rgba(63, 63, 70, 0.5);
+}
+.btn-shadow:hover{
+    box-shadow: 4px 4px 4px rgba(63, 63, 70, 0.5);
 }
 hr{
     border : 0;
     height: 1px; 
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
-}
-button:hover{
-    background-color: rgb(43, 100, 192);
-    box-shadow: 4px 4px 4px rgba(63, 63, 70, 0.5);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .mb-20{
     margin-bottom: 20px;
