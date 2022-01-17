@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--font1);
 }
 body{
     background-color: var(--off-white);
@@ -114,15 +115,25 @@ button:hover{
     border-radius: 10px;
     margin: auto;
 }
-.newsletter input{
+.form-box{
     display: flex;
     width: 90%;
     margin: auto;
-    height: 40px;
+    /* height: 40px; */
     border: none;
     font-family: var(--font1);
     font-size: 20px;
-    padding: 5px 5px;
+    padding: 10px 20px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
+/* textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+  } */
