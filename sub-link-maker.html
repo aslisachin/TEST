@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h1 class="text-center mb-20">YT SUB Link</h1>
+            <div class="newsletter">
+                <p class="text-center mb-20">Channel Link</p>
+                <input type="text" name="ytlink" class="form-box" id="ytlink" placeholder="Your Channel Link"
+                    autocomplete="off">
+                <textarea onclick="Copy()" id="result" class="mb-20 form-box h-100" name="" placeholder="Subscribe Link..."></textarea>
+                <button onclick="myFunc()" id="join" class="btn text-center">Create</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function myFunc() {
+            var linkm = document.getElementById("ytlink").value;
+            if (linkm != "") {
+                var youtubelink = linkm + "?sub_confirmation=1";
+                document.getElementById('result').value = youtubelink;
+            } else {
+                document.getElementById('result').value = "";
+            }
+        }
+        function Copy() {
+            var copyText = document.getElementById("result");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            alert("Copied... ");
+        }
+    </script>
+
+
+</body>
