@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript | Detecting the Operating System of User.</title>
+  </head>
+
+  <body style="text-align: center" id="body">
+    <p
+      id="GFG_DOWN"
+      style="color: green; font-size: 24px; font-weight: bold"
+    ></p>
+    <script>
+      HTMLDocument.prototype.e = document.getElementById;
+      var el_up = document.e("GFG_UP");
+      var el_down = document.e("GFG_DOWN");
+      var Name = "Not known";
+      if (navigator.appVersion.indexOf("Win") != -1) Name = "Windows OS";
+      if (navigator.appVersion.indexOf("Mac") != -1) Name = "MacOS";
+      if (navigator.appVersion.indexOf("X11") != -1) Name = "UNIX OS";
+      if (navigator.appVersion.indexOf("Linux") != -1) Name = "Linux OS";
+
+      //   function GFG_Fun() {
+      //     el_down.innerHTML = Name;
+      //   }
+      el_down.innerHTML = Name;
+
+      if (navigator.appVersion.indexOf("Win") != -1) {
+        alert("windows");
+      }
+
+      if (navigator.appVersion.indexOf("Mac") != -1) {
+        alert("Mac");
+      }
+
+      if (navigator.appVersion.indexOf("X11") != -1) {
+        // alert("X11");
+      }
+
+      if (navigator.appVersion.indexOf("Linux") != -1) {
+        // alert("Linux");
+      }
+
+      if (navigator.appVersion.indexOf("Android") != -1) {
+        alert("Android");
+      }
+    </script>
+  </body>
+</html>
